@@ -46,5 +46,3 @@ nav:
   - Home: 'index.md'
   - Tools:
       - rsync: 'tools/rsync.md'
-  - About: 
-    - About: 'about.md'
