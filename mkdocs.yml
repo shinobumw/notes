@@ -1,7 +1,7 @@
 site_name: Shinobumw's Notes 
 
-repo_name: shinobumw/notes
-repo_url: https://github.com/shinobumw/notes
+repo_name: 'shinobumw/notes'
+repo_url: 'https://github.com/shinobumw/notes'
 
 theme:
   name: material
