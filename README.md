@@ -1,7 +1,5 @@
 # notes
 
-# Shinobumw's Notes
-
 [![Build Status][travis-image]][travis-link]
 
 Collecion of my notes.
