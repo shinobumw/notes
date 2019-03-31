@@ -12,7 +12,6 @@ before_install:
   - echo -e "machine github.com\n  login ${GITHUB_TOKEN}" > ~/.netrc
 
 script:
-  - mkdocs -V
   # - mkdocs gh-deploy --force --clean
   - mkdocs build --clean
 
