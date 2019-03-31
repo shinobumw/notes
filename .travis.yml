@@ -1,17 +1,8 @@
 language: python
 cache: pip
 
-matrix:
-  include:
-    - python: 3.6
-      dist: trusty
-      sudo: false
-    - python: 3.7
-      dist: xenial
-sudo: true
-
 python:
-  - "3.7"
+  - "3.6"
 
 before_install:
   - pip install mkdocs
