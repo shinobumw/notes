@@ -1,8 +1,10 @@
 language: python
+dist: xenial
+sudo: required
 cache: pip
 
 python:
-  - "3.6"
+  - "3.7"
 
 before_install:
   - pip install mkdocs
@@ -17,4 +19,4 @@ script:
 
 branches:
   only:
-- master
+    - master
