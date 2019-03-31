@@ -11,7 +11,7 @@ rsync -a --delete --quiet /folder/to/backup /location/of/backup
 if [ $? != "0" ] ; then
     echo "rsync backup failed."
 else
-    tar czf /var/backup/home-`date +%Y%m%d`.tar.gz /folder/to/backup /location/of/backup
+    tar czf /var/backup/home-`date +%Y%m%d`.tar.gz /location/of/backup
 fi
 ```
 
