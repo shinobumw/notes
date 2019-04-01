@@ -1,3 +1,3 @@
-# notes
+# Shinobumw's Notes
 
-Collecion of my notes.
+Collection of my notes.
