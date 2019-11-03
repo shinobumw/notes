@@ -1,8 +1,5 @@
 # notes
 
-[![Build Status][travis-image]][travis-link]
+![GitHub Actions status](https://github.com/shinobumw/notes/workflows/github%20pages/badge.svg)
 
 Collection of my notes.
-
-[travis-image]: https://img.shields.io/travis/shinobumw/notes/master.png
-[travis-link]: https://travis-ci.org/shinobumw/notes
