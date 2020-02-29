@@ -434,16 +434,16 @@
                 <h1 id="rclone">rclone<a class="headerlink" href="#rclone" title="Permanent link">&para;</a></h1>
 <h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code class="codehilite"><span class="n">rclone</span> <span class="k">copy</span> <span class="k">source</span><span class="p">:</span><span class="n">sourcepath</span> <span class="n">dest</span><span class="p">:</span><span class="n">destpath</span></code></li>
-<li><code class="codehilite"><span class="n">rclone</span><span class="w"> </span><span class="n">sync</span><span class="w"> </span><span class="nl">source</span><span class="p">:</span><span class="k">path</span><span class="w"> </span><span class="nl">dest</span><span class="p">:</span><span class="k">path</span><span class="w"> </span><span class="o">[</span><span class="n">flags</span><span class="o">]</span><span class="w"></span></code></li>
+<li><code class="codehilite"><span class="n">rclone</span> <span class="k">copy</span> <span class="ss">&quot;source:sourcepath&quot;</span> <span class="ss">&quot;dest:destpath&quot;</span></code></li>
+<li><code class="codehilite"><span class="n">rclone</span><span class="w"> </span><span class="n">sync</span><span class="w"> </span><span class="ss">&quot;source:path&quot;</span><span class="w"> </span><span class="ss">&quot;dest:path&quot;</span><span class="w"> </span><span class="o">[</span><span class="n">flags</span><span class="o">]</span><span class="w"></span></code></li>
 <li>flags: <code class="codehilite"><span class="c1">--create-empty-src-dirs   Create empty source dirs on destination after sync</span></code></li>
-<li><code class="codehilite"><span class="n">rclone</span><span class="w"> </span><span class="n">ls</span><span class="w"> </span><span class="nl">remote</span><span class="p">:</span><span class="k">path</span><span class="w"> </span><span class="o">[</span><span class="n">flags</span><span class="o">]</span><span class="w"></span></code></li>
+<li><code class="codehilite"><span class="n">rclone</span><span class="w"> </span><span class="n">ls</span><span class="w"> </span><span class="ss">&quot;remote:path&quot;</span><span class="w"> </span><span class="o">[</span><span class="n">flags</span><span class="o">]</span><span class="w"></span></code></li>
 <li><code class="codehilite"><span class="n">ls</span></code> to list size and path of objects only</li>
 <li><code class="codehilite"><span class="n">lsl</span></code> to list modification time, size and path of objects only</li>
 <li><code class="codehilite"><span class="n">lsd</span></code> to list directories only</li>
 <li><code class="codehilite"><span class="n">lsf</span></code> to list objects and directories in easy to parse format</li>
 <li><code class="codehilite"><span class="n">lsjson</span></code> to list objects and directories in JSON format</li>
-<li><code class="codehilite"><span class="n">rclone</span> <span class="n">tree</span> <span class="n">remote</span><span class="p">:</span><span class="n">path</span></code></li>
+<li><code class="codehilite"><span class="n">rclone</span> <span class="n">tree</span> <span class="ss">&quot;remote:path&quot;</span></code></li>
 </ul>
 <h2 id="flags">Flags<a class="headerlink" href="#flags" title="Permanent link">&para;</a></h2>
 <ul>
