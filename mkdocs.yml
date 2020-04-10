@@ -11,9 +11,12 @@ theme:
   font:
     text: 'Ubuntu'
     code: 'Ubuntu Mono'
+  palette:
+    primary: light green
+    accent: indigo
 
   feature:
-    tabs: true
+    - tabs
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
