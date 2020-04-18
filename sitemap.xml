@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://shinobumw.github.io/notes/</loc>
-     <lastmod>2020-04-17</lastmod>
+     <lastmod>2020-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://shinobumw.github.io/notes/tools/rsync/</loc>
-     <lastmod>2020-04-17</lastmod>
+     <lastmod>2020-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://shinobumw.github.io/notes/tools/rclone/</loc>
-     <lastmod>2020-04-17</lastmod>
+     <lastmod>2020-04-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://shinobumw.github.io/notes/about/</loc>
+     <lastmod>2020-04-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
