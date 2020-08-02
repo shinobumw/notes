@@ -13,8 +13,8 @@ theme:
 
   language: en
   font:
-    text: 'Ubuntu'
-    code: 'Ubuntu Mono'
+    text: "Ubuntu"
+    code: "Ubuntu Mono"
   palette:
     primary: indigo
     accent: indigo
@@ -28,7 +28,7 @@ extra:
       link: https://github.com/shinobumw
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
 
 google_analytics:
   - UA-163939515-2
@@ -66,4 +66,7 @@ nav:
   - Tools:
       - rsync: tools/rsync.md
       - rclone: tools/rclone.md
+  - Udemy: udemy/course.md
+  - Books: books.md
+
   - "": about.md
